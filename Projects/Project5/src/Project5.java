@@ -61,11 +61,11 @@ public class Project5 {
 	}
 	
 	public static void display(double ageAve, double gpaAve){
-		System.out.printf("Average age is %2.1f, and average gpa is %2.1f %n", ageAve, gpaAve);
+		System.out.printf("Average age is %2.1f, and average gpa is %2.2f %n", ageAve, gpaAve);
 	}
 	
 	public static void display(PERSON[] a, double gpaAve){
-		System.out.printf("Student whose gpa is above the average gpa %2.1f %n" , gpaAve);
+		System.out.printf("Student whose gpa is above the average gpa %2.2f %n" , gpaAve);
 		for(int i = 0; i<a.length; i++){
 			if(a[i].getGpa() >= gpaAve){
 				System.out.printf("%-10s   %2d  %2.1f %n",a[i].getName(),a[i].getAge(),a[i].getGpa());
