@@ -1,0 +1,8 @@
+50	John_Smith	123.45
+70	Bill_Clinton	456.68
+40	George_W_Bush	789.10
+60	Barack_Obama	688.90
+20	Ronald_Ragan	999.25
+90	George_Bush	793.22
+30	Jerald_Ford	222.44
+10	Richard_Nixon	777.77

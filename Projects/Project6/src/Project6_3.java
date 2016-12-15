@@ -76,15 +76,7 @@ public class Project6_3 {
 		return min;
 	}
 	
-	/*
-		Bob 10
-		Mary 7
-		Bill 5
-		Tom 15
-		Jack 3
-	 */
-	
-	
+
 	public static void display(linkedList waitinglist){
 		System.out.printf("squeue");
 		String name = new String();
